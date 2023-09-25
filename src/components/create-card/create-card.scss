@@ -1,0 +1,45 @@
+.add-card {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  background-color: #f0f0f0;
+  &__input {
+    width: 100%;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    background-color: transparent;
+    &:focus {
+      outline: none;
+    }
+    &-text {
+      resize: none;
+    }
+  }
+  &__btn-block {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__submit {
+    padding: 5px 10px;
+    margin: 0 15px 0 10px;
+    background-color: #f48743;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  &__close {
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #7e7e7e;
+    border: none;
+    cursor: pointer;
+  }
+}
